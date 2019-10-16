@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 6c</title>
+	<style>
+		div h3{
+			text-decoration: underline;
+		}
+		[data-cucharada="cucharadita"]{
+			font-style: italic;
+		}
+		
+		[data-cucharada]{
+			font-weight: bold;
+		}
+		
+		#alitas{
+			color: #993366;
+		}
+		
+		.dot{
+			width: 17px;
+		}
+		
+		h1, h3{
+			color: #993366;
+		}
+		
+		div > ul{
+			list-style: none;
+		}
+		
+		h3 ~ p{
+			font-size: large;
+		}
+		
+		div + .imagen_final{
+			width: 50%;
+		}
+		
+		.formulario{
+			float: right;
+			text-align: end;
+			width: 50%;
+		}
+	</style>
+  </head>
+  <body>
+		<h1>Alitas de pollo al ajillo</h1>
+		<p>Las <span id="alitas">alitas de pollo al ajillo</span>, es una receta típicamente española. 
+			Consiste en las alitas del pollo fritas sobre un aceite de oliva aromatizado con el ajo. 
+			En realidad, no tiene por que ser obligatoriamente alitas. Puedes utilizar el muslo del pollo o unas pechugas. 
+			Pero yo personalmente prefiero hacerlo con alitas porque no quedan tan secas como la pechuga, ni tarda tanto en cocinarse como el muslo. 
+			Pero esto ya queda a tu elección. 
+			Ahora, veamos como preparar las alitas de pollo al ajillo:</p>
+		<div>
+			<h3>INGREDIENTES PARA 4 PERSONAS:</h3>
+			<ul>
+				<li><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>Unas 20 alitas de pollo</li>
+				<li><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>8 dientes de ajo</li>
+				<li><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>aceite de oliva</li>
+				<li data-cucharada="cucharadita"><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>1 cucharadita de romero</li>
+				<li data-cucharada="cucharadita"><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>1 cucharadita de tomillo</li>
+				<li data-cucharada><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>1 vaso de vino blanco</li>
+				<li><img src="https://schoolmeritstickers.com/data/img/products/main/_cache/6cd95dcfb3720ef0de096c23aa5fc84b.jpg?596512e0"
+				class="dot"/>sal y pimieta</li>
+			</ul>
+		</div>
+		<div>
+			<h3>RECETA DE LAS ALITAS DE POLLO AL AJILLO:</h3>
+			<p>1. <span>Cortamos y salpimentamos las alitas de pollo y el ajo</span></p>
+			<p>2. <span>En una sartén amplia, ponemos un buen chorro de aceite de oliva a fuego muy suave y 
+					despues cocinamos el ajo en él. Lo hacemos muy lentamente porque, no queremos que coja color. 
+					Tan solo queremos que aromatice el aceite</span></p>
+			<p>3. <span>Pasados unos 3 minutos, retiramos el ajo y lo reservamos en un plato</span></p>
+			<p>4. <span>Subimos la potencia del fuego y freímos las alitas en el aceite de oliva ya aromatizado. 
+					Lo freímos por unos 10 minutos</span></p>
+			<p>5. <span>Cuando ya esté frito, añadimos el ajo que habíamos reservado antes y 
+					lo cocinamos durante unos 15 segundos. 
+					¡No más o si no se quemará y cogerá un gusto muy desagradable!</span></p>
+			<p>6. <span> Añadimos un vaso de vino blanco y dejamos cocinar durante un par de minutos. 
+					Que se evapore el alcohol y se mezclen bien todos los sabores</span></p>
+			<p>7. <span>Finalmente espolvoreamos con un poco de tomillo y de romero. ¡A COMER!</span></p>
+		</div>
+		<img src="https://www.cocinacaserayfacil.net/wp-content/uploads/2015/04/Pollo-al-ajillo.jpg" class="imagen_final"/>
+		<div class="formulario">
+			<fieldset>
+				<legend>¿Tienes dudas?</legend>
+				<form method="post" action="ejemplo">
+				<div>
+					<label>Nombre:</label>
+					<input type="text" class="nombre"/>
+				</div>
+				<div>
+					<label>Apellidos:</label>
+					<input type="text" class="apellidos"/>
+				</div>
+				<div>
+					<label>Email:</label>
+					<input type="email" class="email"/>
+				</div>
+				<div>
+					<label>Comentario/Dudas:</label>
+					<textarea class="comentario"></textarea>
+				</div>
+				<input type="submit" value="Enviar"/>
+			</form>
+			</fieldset>
+		</div>
+  </body>
+</html>
